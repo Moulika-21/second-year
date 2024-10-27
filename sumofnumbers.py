@@ -1,7 +1,7 @@
 def sum_of_list(lst):
     total = 0
     for n in lst:
-        total = total  + n
+        total = total  + int(n)
     return total  
 
 # Test the function
